@@ -1,0 +1,94 @@
+{
+ "schema_version": 1,
+ "generated": "2026-10-27T21:23:26.855880-06:00",
+ "code_version": "v1.0",
+ "timezone": "America/Denver",
+ "units": {
+  "water": "in",
+  "snow": "in",
+  "snow_level": "ft"
+ },
+ "ensemble_wet_threshold_in": 0.1,
+ "snow_method": "Kuchera snow ratio per model step from the profile at each resort's elevation, wet-bulb snow/mix/rain, minimum ratio 3:1 (snow_in)",
+ "snow_regime_method": "snow_in_regime: each model step's snow scaled by the resort's precip share in that step's 700 mb flow and temperature, from SNOTEL + SLC balloons since 2010 (1.10 = 10% more than usual); unverified",
+ "points": {
+  "alta": {
+   "lat": 40.5764,
+   "lon": -111.6383,
+   "elev_ft": 9662
+  },
+  "snowbird": {
+   "lat": 40.56914,
+   "lon": -111.65852,
+   "elev_ft": 9170
+  },
+  "solitude": {
+   "lat": 40.613,
+   "lon": -111.596,
+   "elev_ft": 9200
+  },
+  "brighton": {
+   "lat": 40.593,
+   "lon": -111.588,
+   "elev_ft": 9600
+  }
+ },
+ "models": [
+  {
+   "model": "ENS",
+   "cycle": "10/27 12z",
+   "init": "2026-10-27T06:00:00-06:00"
+  },
+  {
+   "model": "GDPS",
+   "cycle": "10/27 12z",
+   "init": "2026-10-27T06:00:00-06:00"
+  },
+  {
+   "model": "GEFS",
+   "cycle": "10/27 18z",
+   "init": "2026-10-27T12:00:00-06:00"
+  },
+  {
+   "model": "GFS",
+   "cycle": "10/27 18z",
+   "init": "2026-10-27T12:00:00-06:00"
+  },
+  {
+   "model": "HRRR",
+   "cycle": "10/28 00z",
+   "init": "2026-10-27T18:00:00-06:00"
+  },
+  {
+   "model": "IFS",
+   "cycle": "10/27 12z",
+   "init": "2026-10-27T06:00:00-06:00"
+  },
+  {
+   "model": "NAM",
+   "cycle": "10/28 00z",
+   "init": "2026-10-27T18:00:00-06:00"
+  },
+  {
+   "model": "NAMNEST",
+   "cycle": "10/28 00z",
+   "init": "2026-10-27T18:00:00-06:00"
+  },
+  {
+   "model": "RDPS",
+   "cycle": "10/27 18z",
+   "init": "2026-10-27T12:00:00-06:00"
+  }
+ ],
+ "warnings": [
+  "WARNING GDPS: 2 of its last 8 runs missing (latest missing 10/24 12z (0600 MDT)); newest archived 10/27 12z (0600 MDT), 15 h old"
+ ],
+ "disclaimer": "Experimental, automated model guidance for the Cottonwood Canyons. Not an official forecast; check the NWS and the Utah Avalanche Center before heading out.",
+ "credits": [
+  "NOAA/NCEP (HRRR, NAM, GFS, GEFS) via NOAA Open Data Dissemination",
+  "ECMWF open data (IFS, ENS), CC BY 4.0",
+  "Environment and Climate Change Canada / MSC Datamart (RDPS, GDPS), Open Government Licence - Canada",
+  "NCAR GDEX GFS archive, CC BY 4.0, doi:10.5065/D65D8PWK",
+  "snow_in_regime adjustment factors: USDA NRCS SNOTEL history and Salt Lake City soundings (Iowa Environmental Mesonet), 2010-2026"
+ ]
+}
