@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated": "2026-10-29T03:22:45.051724-06:00",
+ "generated": "2026-10-29T06:09:16.099265-06:00",
  "snow_regime_adjusted": false,
  "storms": [
   {
@@ -16,7 +16,7 @@
    "notes": [
     {
      "label": "note",
-     "text": "IFS starts 27 h earlier; NAMNEST starts 21 h earlier; GFS starts 18 h earlier; NAM starts 15 h earlier; RDPS starts 15 h earlier; IFS ends 3 h later"
+     "text": "IFS starts 27 h earlier; NAMNEST starts 21 h earlier; NAM starts 15 h earlier; IFS ends 3 h later"
     },
     {
      "label": "flow (GDPS)",
@@ -32,7 +32,7 @@
     },
     {
      "label": "models disagree",
-     "text": "GFS shows 2 separate periods: Fri 10/30 2100 MDT-Sat 10/31 0900 MDT; Sun 11/01 0200 MST-Mon 11/02 1400 MST | IFS shows 2 separate periods: Fri 10/30 1200 MDT-Sat 10/31 0300 MDT; Sun 11/01 0500 MST-Mon 11/02 2000 MST"
+     "text": "IFS shows 2 separate periods: Fri 10/30 1200 MDT-Sat 10/31 0300 MDT; Sun 11/01 0500 MST-Mon 11/02 2000 MST"
     }
    ],
    "models": [
@@ -57,13 +57,13 @@
     },
     {
      "model": "RDPS",
-     "cycle": "10/29 00z",
-     "init": "2026-10-28T18:00:00-06:00",
+     "cycle": "10/29 06z",
+     "init": "2026-10-29T00:00:00-06:00",
      "covers_full_storm": false,
-     "run_ends": "2026-11-01T05:00:00-07:00",
+     "run_ends": "2026-11-01T11:00:00-07:00",
      "snow_level_ft": {
-      "start": 9600,
-      "end": 9200
+      "start": 9700,
+      "end": 9500
      },
      "flow": "S/E warm 0C 100%",
      "modes": "frontal 100%",
@@ -76,39 +76,39 @@
     },
     {
      "model": "GFS",
-     "cycle": "10/29 00z",
-     "init": "2026-10-28T18:00:00-06:00",
+     "cycle": "10/29 06z",
+     "init": "2026-10-29T00:00:00-06:00",
      "covers_full_storm": true,
-     "run_ends": "2026-11-04T17:00:00-07:00",
+     "run_ends": "2026-11-04T23:00:00-07:00",
      "snow_level_ft": {
-      "start": 9200,
-      "end": 7200
+      "start": 9100,
+      "end": 6800
      },
-     "flow": "S/E warm -2C 65% -> NW mild -6C 30% -> N mild -5C 5%",
-     "modes": "frontal 80% -> post-frontal 20%",
+     "flow": "S/E warm -1C 14% -> SW warm -2C 34% -> NW mild -6C 52%",
+     "modes": "frontal 77% -> post-frontal 23%",
      "points": {
       "alta": {
        "type": "deterministic",
-       "water_in": 1.03,
-       "snow_in": 12.7,
+       "water_in": 1.18,
+       "snow_in": 15.1,
        "snow_in_regime": null
       },
       "snowbird": {
        "type": "deterministic",
-       "water_in": 1.04,
-       "snow_in": 11.6,
+       "water_in": 1.19,
+       "snow_in": 13.4,
        "snow_in_regime": null
       },
       "solitude": {
        "type": "deterministic",
-       "water_in": 1.01,
-       "snow_in": 10.8,
+       "water_in": 1.21,
+       "snow_in": 13.2,
        "snow_in_regime": null
       },
       "brighton": {
        "type": "deterministic",
-       "water_in": 0.99,
-       "snow_in": 11.7,
+       "water_in": 1.15,
+       "snow_in": 14.1,
        "snow_in_regime": null
       }
      }
@@ -229,10 +229,10 @@
     },
     {
      "model": "ENS",
-     "cycle": "10/28 18z",
-     "init": "2026-10-28T12:00:00-06:00",
+     "cycle": "10/29 00z",
+     "init": "2026-10-28T18:00:00-06:00",
      "covers_full_storm": true,
-     "run_ends": "2026-11-03T05:00:00-07:00",
+     "run_ends": "2026-11-04T17:00:00-07:00",
      "snow_level_ft": null,
      "flow": null,
      "modes": null,
@@ -241,25 +241,25 @@
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 1.1
+       "mean_water_in": 1.26
       },
       "snowbird": {
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 1.1
+       "mean_water_in": 1.26
       },
       "solitude": {
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 1.1
+       "mean_water_in": 1.26
       },
       "brighton": {
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 1.11
+       "mean_water_in": 1.27
       }
      }
     }
