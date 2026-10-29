@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated": "2026-10-28T20:58:12.068890-06:00",
+ "generated": "2026-10-28T21:02:42.694715-06:00",
  "code_version": "v1.4",
  "timezone": "America/Denver",
  "units": {
@@ -36,8 +36,8 @@
  "models": [
   {
    "model": "ENS",
-   "cycle": "10/28 12z",
-   "init": "2026-10-28T06:00:00-06:00"
+   "cycle": "10/28 18z",
+   "init": "2026-10-28T12:00:00-06:00"
   },
   {
    "model": "GDPS",
