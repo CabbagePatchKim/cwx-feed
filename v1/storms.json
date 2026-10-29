@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated": "2026-10-29T15:21:04.441511-06:00",
+ "generated": "2026-10-29T16:36:03.167625-06:00",
  "snow_regime_adjusted": false,
  "storms": [
   {
@@ -307,10 +307,10 @@
     },
     {
      "model": "ENS",
-     "cycle": "10/29 06z",
-     "init": "2026-10-29T00:00:00-06:00",
+     "cycle": "10/29 12z",
+     "init": "2026-10-29T06:00:00-06:00",
      "covers_full_storm": true,
-     "run_ends": "2026-11-03T17:00:00-07:00",
+     "run_ends": "2026-11-05T05:00:00-07:00",
      "snow_level_ft": null,
      "flow": null,
      "modes": null,
@@ -319,25 +319,25 @@
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 0.89
+       "mean_water_in": 0.82
       },
       "snowbird": {
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 0.88
+       "mean_water_in": 0.81
       },
       "solitude": {
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 0.9
+       "mean_water_in": 0.84
       },
       "brighton": {
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 0.92
+       "mean_water_in": 0.86
       }
      }
     }
@@ -512,6 +512,42 @@
        "members_wet": 8,
        "members": 31,
        "mean_water_in": 0.1
+      }
+     }
+    },
+    {
+     "model": "ENS",
+     "cycle": "10/29 12z",
+     "init": "2026-10-29T06:00:00-06:00",
+     "covers_full_storm": true,
+     "run_ends": "2026-11-05T05:00:00-07:00",
+     "snow_level_ft": null,
+     "flow": null,
+     "modes": null,
+     "points": {
+      "alta": {
+       "type": "ensemble",
+       "members_wet": 11,
+       "members": 50,
+       "mean_water_in": 0.09
+      },
+      "snowbird": {
+       "type": "ensemble",
+       "members_wet": 11,
+       "members": 50,
+       "mean_water_in": 0.09
+      },
+      "solitude": {
+       "type": "ensemble",
+       "members_wet": 12,
+       "members": 50,
+       "mean_water_in": 0.09
+      },
+      "brighton": {
+       "type": "ensemble",
+       "members_wet": 13,
+       "members": 50,
+       "mean_water_in": 0.09
       }
      }
     }
