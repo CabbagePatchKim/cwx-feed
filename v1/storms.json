@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated": "2026-11-09T20:02:00.844451-07:00",
+ "generated": "2026-11-09T23:27:51.098060-07:00",
  "snow_regime_adjusted": false,
  "storms": [
   {
@@ -15,6 +15,10 @@
    },
    "notes": [
     {
+     "label": "note",
+     "text": "GDPS starts 6 h earlier"
+    },
+    {
      "label": "flow (IFS)",
      "text": "SW warm -2C 79% -> NW warm -4C 21%"
     },
@@ -26,75 +30,78 @@
    "models": [
     {
      "model": "GFS",
-     "cycle": "11/09 18z",
-     "init": "2026-11-09T11:00:00-07:00",
+     "cycle": "11/10 00z",
+     "init": "2026-11-09T17:00:00-07:00",
      "covers_full_storm": true,
-     "run_ends": "2026-11-16T11:00:00-07:00",
+     "run_ends": "2026-11-16T17:00:00-07:00",
      "snow_level_ft": {
       "start": 7800,
       "end": 6800
      },
-     "flow": "SW warm -3C 34% -> NW mild -5C 66%",
+     "flow": "SW warm -4C 91% -> W mild -6C 9%",
      "modes": "frontal 100%",
      "points": {
       "alta": {
        "type": "deterministic",
-       "water_in": 0.48,
-       "snow_in": 6.7,
+       "water_in": 0.44,
+       "snow_in": 6.2,
        "snow_in_regime": null
       },
       "snowbird": {
        "type": "deterministic",
-       "water_in": 0.48,
-       "snow_in": 6.3,
+       "water_in": 0.45,
+       "snow_in": 5.9,
        "snow_in_regime": null
       },
       "solitude": {
        "type": "deterministic",
-       "water_in": 0.47,
-       "snow_in": 6.0,
+       "water_in": 0.41,
+       "snow_in": 5.2,
        "snow_in_regime": null
       },
       "brighton": {
        "type": "deterministic",
-       "water_in": 0.47,
-       "snow_in": 6.4,
+       "water_in": 0.42,
+       "snow_in": 5.8,
        "snow_in_regime": null
       }
      }
     },
     {
      "model": "GDPS",
-     "cycle": "11/09 12z",
-     "init": "2026-11-09T05:00:00-07:00",
+     "cycle": "11/10 00z",
+     "init": "2026-11-09T17:00:00-07:00",
      "covers_full_storm": true,
-     "run_ends": "2026-11-16T05:00:00-07:00",
-     "snow_level_ft": null,
-     "flow": null,
-     "modes": null,
+     "run_ends": "2026-11-16T17:00:00-07:00",
+     "snow_level_ft": {
+      "start": 7600,
+      "end": 7500
+     },
+     "flow": "W warm -3C 100%",
+     "modes": "frontal 100%",
      "points": {
       "alta": {
        "type": "deterministic",
-       "water_in": 0.0,
-       "snow_in": 0.0,
+       "water_in": 0.65,
+       "snow_in": 7.9,
        "snow_in_regime": null
       },
       "snowbird": {
        "type": "deterministic",
-       "water_in": 0.0,
-       "snow_in": 0.0,
+       "water_in": 0.63,
+       "snow_in": 6.9,
        "snow_in_regime": null
       },
       "solitude": {
        "type": "deterministic",
-       "water_in": 0.0,
-       "snow_in": 0.0,
+       "water_in": 0.64,
+       "snow_in": 6.9,
        "snow_in_regime": null
       },
       "brighton": {
        "type": "deterministic",
-       "water_in": 0.0,
-       "snow_in": 0.0,
+       "water_in": 0.68,
+       "snow_in": 8.1,
        "snow_in_regime": null
       }
      }
@@ -176,37 +183,37 @@
     },
     {
      "model": "ENS",
-     "cycle": "11/09 12z",
-     "init": "2026-11-09T05:00:00-07:00",
+     "cycle": "11/09 18z",
+     "init": "2026-11-09T11:00:00-07:00",
      "covers_full_storm": true,
-     "run_ends": "2026-11-16T05:00:00-07:00",
+     "run_ends": "2026-11-15T05:00:00-07:00",
      "snow_level_ft": null,
      "flow": null,
      "modes": null,
      "points": {
       "alta": {
        "type": "ensemble",
-       "members_wet": 36,
+       "members_wet": 38,
        "members": 50,
-       "mean_water_in": 0.33
+       "mean_water_in": 0.34
       },
       "snowbird": {
        "type": "ensemble",
-       "members_wet": 36,
-       "members": 50,
-       "mean_water_in": 0.32
-      },
-      "solitude": {
-       "type": "ensemble",
-       "members_wet": 36,
+       "members_wet": 38,
        "members": 50,
        "mean_water_in": 0.33
       },
-      "brighton": {
+      "solitude": {
        "type": "ensemble",
-       "members_wet": 36,
+       "members_wet": 38,
        "members": 50,
        "mean_water_in": 0.34
+      },
+      "brighton": {
+       "type": "ensemble",
+       "members_wet": 38,
+       "members": 50,
+       "mean_water_in": 0.35
       }
      }
     }
