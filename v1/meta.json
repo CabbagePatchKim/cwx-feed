@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated": "2026-11-17T17:04:27.404886-07:00",
+ "generated": "2026-11-17T20:03:15.886321-07:00",
  "code_version": "v1.11",
  "timezone": "America/Denver",
  "units": {
@@ -46,8 +46,8 @@
   },
   {
    "model": "GEFS",
-   "cycle": "11/17 12z",
-   "init": "2026-11-17T05:00:00-07:00"
+   "cycle": "11/17 18z",
+   "init": "2026-11-17T11:00:00-07:00"
   },
   {
    "model": "GFS",
@@ -56,13 +56,13 @@
   },
   {
    "model": "HRRR",
-   "cycle": "11/17 18z",
-   "init": "2026-11-17T11:00:00-07:00"
+   "cycle": "11/18 00z",
+   "init": "2026-11-17T17:00:00-07:00"
   },
   {
    "model": "IFS",
-   "cycle": "11/17 12z",
-   "init": "2026-11-17T05:00:00-07:00"
+   "cycle": "11/17 18z",
+   "init": "2026-11-17T11:00:00-07:00"
   },
   {
    "model": "RDPS",
@@ -76,7 +76,7 @@
   }
  ],
  "warnings": [
-  "WARNING ENS: 4 of its last 8 runs missing (latest missing 11/17 06z (2300 MST)); newest archived 11/17 00z (1700 MST), 24 h old"
+  "WARNING ENS: 4 of its last 8 runs missing (latest missing 11/17 06z (2300 MST)); newest archived 11/17 12z (0500 MST), 15 h old"
  ],
  "disclaimer": "Experimental, automated model guidance for the Cottonwood Canyons. Not an official forecast; check the NWS and the Utah Avalanche Center before heading out.",
  "credits": [
