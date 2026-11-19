@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated": "2026-11-18T20:03:08.884731-07:00",
+ "generated": "2026-11-18T23:33:52.965996-07:00",
  "points": {
   "alta": [
    {
@@ -68,8 +68,8 @@
    },
    {
     "model": "RRFS",
-    "cycle": "11/18 18z",
-    "init": "2026-11-18T11:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
@@ -82,8 +82,8 @@
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 1.48,
-       "snow_in": 23.0,
+       "water_in": 1.42,
+       "snow_in": 22.1,
        "snow_in_regime": null
       }
      },
@@ -92,15 +92,20 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.41,
-       "snow_in": 8.0,
+       "water_in": 0.95,
+       "snow_in": 18.0,
        "snow_in_regime": null
       }
      },
      {
       "start": "2026-11-21T05:00:00-07:00",
       "end": "2026-11-22T05:00:00-07:00",
-      "amounts": null
+      "amounts": {
+       "type": "deterministic",
+       "water_in": 0.04,
+       "snow_in": 0.7,
+       "snow_in_regime": null
+      }
      },
      {
       "start": "2026-11-22T05:00:00-07:00",
@@ -136,8 +141,8 @@
    },
    {
     "model": "RDPS",
-    "cycle": "11/18 18z",
-    "init": "2026-11-18T11:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
@@ -150,8 +155,8 @@
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 1.86,
-       "snow_in": 27.8,
+       "water_in": 1.74,
+       "snow_in": 25.8,
        "snow_in_regime": null
       }
      },
@@ -160,15 +165,20 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.68,
-       "snow_in": 12.4,
+       "water_in": 0.63,
+       "snow_in": 11.4,
        "snow_in_regime": null
       }
      },
      {
       "start": "2026-11-21T05:00:00-07:00",
       "end": "2026-11-22T05:00:00-07:00",
-      "amounts": null
+      "amounts": {
+       "type": "deterministic",
+       "water_in": 0.02,
+       "snow_in": 0.4,
+       "snow_in_regime": null
+      }
      },
      {
       "start": "2026-11-22T05:00:00-07:00",
@@ -204,8 +214,8 @@
    },
    {
     "model": "GFS",
-    "cycle": "11/18 18z",
-    "init": "2026-11-18T11:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
@@ -218,8 +228,8 @@
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.4,
-       "snow_in": 6.3,
+       "water_in": 0.5,
+       "snow_in": 7.9,
        "snow_in_regime": null
       }
      },
@@ -228,8 +238,8 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.47,
-       "snow_in": 8.5,
+       "water_in": 0.52,
+       "snow_in": 9.6,
        "snow_in_regime": null
       }
      },
@@ -238,8 +248,8 @@
       "end": "2026-11-22T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.01,
-       "snow_in": 0.2,
+       "water_in": 0.0,
+       "snow_in": 0.1,
        "snow_in_regime": null
       }
      },
@@ -249,7 +259,7 @@
       "amounts": {
        "type": "deterministic",
        "water_in": 0.0,
-       "snow_in": 0.1,
+       "snow_in": 0.0,
        "snow_in_regime": null
       }
      },
@@ -258,8 +268,8 @@
       "end": "2026-11-24T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.39,
-       "snow_in": 7.2,
+       "water_in": 0.06,
+       "snow_in": 1.2,
        "snow_in_regime": null
       }
      },
@@ -269,7 +279,7 @@
       "amounts": {
        "type": "deterministic",
        "water_in": 0.0,
-       "snow_in": 0.0,
+       "snow_in": 0.1,
        "snow_in_regime": null
       }
      },
@@ -292,27 +302,22 @@
    },
    {
     "model": "GDPS",
-    "cycle": "11/18 12z",
-    "init": "2026-11-18T05:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
       "start": "2026-11-18T05:00:00-07:00",
       "end": "2026-11-19T05:00:00-07:00",
-      "amounts": {
-       "type": "deterministic",
-       "water_in": 0.0,
-       "snow_in": 0.0,
-       "snow_in_regime": null
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-19T05:00:00-07:00",
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.9,
-       "snow_in": 13.6,
+       "water_in": 1.12,
+       "snow_in": 17.3,
        "snow_in_regime": null
       }
      },
@@ -321,8 +326,8 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.93,
-       "snow_in": 16.3,
+       "water_in": 0.61,
+       "snow_in": 10.9,
        "snow_in_regime": null
       }
      },
@@ -332,7 +337,7 @@
       "amounts": {
        "type": "deterministic",
        "water_in": 0.02,
-       "snow_in": 0.4,
+       "snow_in": 0.3,
        "snow_in_regime": null
       }
      },
@@ -351,8 +356,8 @@
       "end": "2026-11-24T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.02,
-       "snow_in": 0.3,
+       "water_in": 0.01,
+       "snow_in": 0.2,
        "snow_in_regime": null
       }
      },
@@ -571,19 +576,14 @@
    },
    {
     "model": "ENS",
-    "cycle": "11/18 12z",
-    "init": "2026-11-18T05:00:00-07:00",
+    "cycle": "11/18 18z",
+    "init": "2026-11-18T11:00:00-07:00",
     "ensemble": true,
     "days": [
      {
       "start": "2026-11-18T05:00:00-07:00",
       "end": "2026-11-19T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 0,
-       "members": 50,
-       "mean_water_in": 0.01
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-19T05:00:00-07:00",
@@ -592,7 +592,7 @@
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 0.37
+       "mean_water_in": 0.41
       }
      },
      {
@@ -602,7 +602,7 @@
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 0.44
+       "mean_water_in": 0.43
       }
      },
      {
@@ -620,9 +620,9 @@
       "end": "2026-11-23T05:00:00-07:00",
       "amounts": {
        "type": "ensemble",
-       "members_wet": 11,
+       "members_wet": 10,
        "members": 50,
-       "mean_water_in": 0.06
+       "mean_water_in": 0.05
       }
      },
      {
@@ -630,50 +630,30 @@
       "end": "2026-11-24T05:00:00-07:00",
       "amounts": {
        "type": "ensemble",
-       "members_wet": 32,
+       "members_wet": 16,
        "members": 50,
-       "mean_water_in": 0.16
+       "mean_water_in": 0.08
       }
      },
      {
       "start": "2026-11-24T05:00:00-07:00",
       "end": "2026-11-25T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 2,
-       "members": 50,
-       "mean_water_in": 0.02
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-25T05:00:00-07:00",
       "end": "2026-11-26T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 34,
-       "members": 50,
-       "mean_water_in": 0.29
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-26T05:00:00-07:00",
       "end": "2026-11-27T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 11,
-       "members": 50,
-       "mean_water_in": 0.07
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-27T05:00:00-07:00",
       "end": "2026-11-28T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 7,
-       "members": 50,
-       "mean_water_in": 0.07
-      }
+      "amounts": null
      }
     ]
    }
@@ -744,8 +724,8 @@
    },
    {
     "model": "RRFS",
-    "cycle": "11/18 18z",
-    "init": "2026-11-18T11:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
@@ -758,8 +738,8 @@
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 1.6,
-       "snow_in": 23.5,
+       "water_in": 1.42,
+       "snow_in": 20.8,
        "snow_in_regime": null
       }
      },
@@ -768,15 +748,20 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.49,
-       "snow_in": 9.1,
+       "water_in": 1.08,
+       "snow_in": 18.9,
        "snow_in_regime": null
       }
      },
      {
       "start": "2026-11-21T05:00:00-07:00",
       "end": "2026-11-22T05:00:00-07:00",
-      "amounts": null
+      "amounts": {
+       "type": "deterministic",
+       "water_in": 0.02,
+       "snow_in": 0.5,
+       "snow_in_regime": null
+      }
      },
      {
       "start": "2026-11-22T05:00:00-07:00",
@@ -812,8 +797,8 @@
    },
    {
     "model": "RDPS",
-    "cycle": "11/18 18z",
-    "init": "2026-11-18T11:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
@@ -826,8 +811,8 @@
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 2.04,
-       "snow_in": 28.5,
+       "water_in": 1.84,
+       "snow_in": 25.6,
        "snow_in_regime": null
       }
      },
@@ -836,15 +821,20 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.82,
-       "snow_in": 13.9,
+       "water_in": 0.79,
+       "snow_in": 13.2,
        "snow_in_regime": null
       }
      },
      {
       "start": "2026-11-21T05:00:00-07:00",
       "end": "2026-11-22T05:00:00-07:00",
-      "amounts": null
+      "amounts": {
+       "type": "deterministic",
+       "water_in": 0.02,
+       "snow_in": 0.5,
+       "snow_in_regime": null
+      }
      },
      {
       "start": "2026-11-22T05:00:00-07:00",
@@ -880,8 +870,8 @@
    },
    {
     "model": "GFS",
-    "cycle": "11/18 18z",
-    "init": "2026-11-18T11:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
@@ -894,8 +884,8 @@
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.4,
-       "snow_in": 6.0,
+       "water_in": 0.51,
+       "snow_in": 7.5,
        "snow_in_regime": null
       }
      },
@@ -904,8 +894,8 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.48,
-       "snow_in": 8.1,
+       "water_in": 0.53,
+       "snow_in": 9.2,
        "snow_in_regime": null
       }
      },
@@ -914,8 +904,8 @@
       "end": "2026-11-22T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.01,
-       "snow_in": 0.2,
+       "water_in": 0.0,
+       "snow_in": 0.1,
        "snow_in_regime": null
       }
      },
@@ -925,7 +915,7 @@
       "amounts": {
        "type": "deterministic",
        "water_in": 0.0,
-       "snow_in": 0.1,
+       "snow_in": 0.0,
        "snow_in_regime": null
       }
      },
@@ -934,8 +924,8 @@
       "end": "2026-11-24T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.4,
-       "snow_in": 7.0,
+       "water_in": 0.06,
+       "snow_in": 1.1,
        "snow_in_regime": null
       }
      },
@@ -968,27 +958,22 @@
    },
    {
     "model": "GDPS",
-    "cycle": "11/18 12z",
-    "init": "2026-11-18T05:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
       "start": "2026-11-18T05:00:00-07:00",
       "end": "2026-11-19T05:00:00-07:00",
-      "amounts": {
-       "type": "deterministic",
-       "water_in": 0.0,
-       "snow_in": 0.0,
-       "snow_in_regime": null
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-19T05:00:00-07:00",
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.81,
-       "snow_in": 11.6,
+       "water_in": 0.99,
+       "snow_in": 14.4,
        "snow_in_regime": null
       }
      },
@@ -997,8 +982,8 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.83,
-       "snow_in": 13.7,
+       "water_in": 0.52,
+       "snow_in": 8.7,
        "snow_in_regime": null
       }
      },
@@ -1007,8 +992,8 @@
       "end": "2026-11-22T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.02,
-       "snow_in": 0.4,
+       "water_in": 0.01,
+       "snow_in": 0.3,
        "snow_in_regime": null
       }
      },
@@ -1247,19 +1232,14 @@
    },
    {
     "model": "ENS",
-    "cycle": "11/18 12z",
-    "init": "2026-11-18T05:00:00-07:00",
+    "cycle": "11/18 18z",
+    "init": "2026-11-18T11:00:00-07:00",
     "ensemble": true,
     "days": [
      {
       "start": "2026-11-18T05:00:00-07:00",
       "end": "2026-11-19T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 0,
-       "members": 50,
-       "mean_water_in": 0.01
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-19T05:00:00-07:00",
@@ -1268,7 +1248,7 @@
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 0.36
+       "mean_water_in": 0.4
       }
      },
      {
@@ -1278,7 +1258,7 @@
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 0.43
+       "mean_water_in": 0.42
       }
      },
      {
@@ -1306,50 +1286,30 @@
       "end": "2026-11-24T05:00:00-07:00",
       "amounts": {
        "type": "ensemble",
-       "members_wet": 30,
+       "members_wet": 16,
        "members": 50,
-       "mean_water_in": 0.15
+       "mean_water_in": 0.08
       }
      },
      {
       "start": "2026-11-24T05:00:00-07:00",
       "end": "2026-11-25T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 2,
-       "members": 50,
-       "mean_water_in": 0.02
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-25T05:00:00-07:00",
       "end": "2026-11-26T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 34,
-       "members": 50,
-       "mean_water_in": 0.29
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-26T05:00:00-07:00",
       "end": "2026-11-27T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 11,
-       "members": 50,
-       "mean_water_in": 0.07
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-27T05:00:00-07:00",
       "end": "2026-11-28T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 7,
-       "members": 50,
-       "mean_water_in": 0.07
-      }
+      "amounts": null
      }
     ]
    }
@@ -1420,8 +1380,8 @@
    },
    {
     "model": "RRFS",
-    "cycle": "11/18 18z",
-    "init": "2026-11-18T11:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
@@ -1434,8 +1394,8 @@
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 1.35,
-       "snow_in": 19.0,
+       "water_in": 1.28,
+       "snow_in": 18.0,
        "snow_in_regime": null
       }
      },
@@ -1444,15 +1404,20 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.39,
-       "snow_in": 7.1,
+       "water_in": 0.76,
+       "snow_in": 13.1,
        "snow_in_regime": null
       }
      },
      {
       "start": "2026-11-21T05:00:00-07:00",
       "end": "2026-11-22T05:00:00-07:00",
-      "amounts": null
+      "amounts": {
+       "type": "deterministic",
+       "water_in": 0.03,
+       "snow_in": 0.5,
+       "snow_in_regime": null
+      }
      },
      {
       "start": "2026-11-22T05:00:00-07:00",
@@ -1488,8 +1453,8 @@
    },
    {
     "model": "RDPS",
-    "cycle": "11/18 18z",
-    "init": "2026-11-18T11:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
@@ -1502,8 +1467,8 @@
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 1.29,
-       "snow_in": 17.6,
+       "water_in": 1.23,
+       "snow_in": 16.5,
        "snow_in_regime": null
       }
      },
@@ -1512,15 +1477,20 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.54,
-       "snow_in": 8.9,
+       "water_in": 0.46,
+       "snow_in": 7.5,
        "snow_in_regime": null
       }
      },
      {
       "start": "2026-11-21T05:00:00-07:00",
       "end": "2026-11-22T05:00:00-07:00",
-      "amounts": null
+      "amounts": {
+       "type": "deterministic",
+       "water_in": 0.02,
+       "snow_in": 0.4,
+       "snow_in_regime": null
+      }
      },
      {
       "start": "2026-11-22T05:00:00-07:00",
@@ -1556,8 +1526,8 @@
    },
    {
     "model": "GFS",
-    "cycle": "11/18 18z",
-    "init": "2026-11-18T11:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
@@ -1570,8 +1540,8 @@
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.38,
-       "snow_in": 5.6,
+       "water_in": 0.47,
+       "snow_in": 6.8,
        "snow_in_regime": null
       }
      },
@@ -1580,8 +1550,8 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.44,
-       "snow_in": 7.4,
+       "water_in": 0.48,
+       "snow_in": 8.1,
        "snow_in_regime": null
       }
      },
@@ -1590,8 +1560,8 @@
       "end": "2026-11-22T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.01,
-       "snow_in": 0.2,
+       "water_in": 0.0,
+       "snow_in": 0.1,
        "snow_in_regime": null
       }
      },
@@ -1601,7 +1571,7 @@
       "amounts": {
        "type": "deterministic",
        "water_in": 0.0,
-       "snow_in": 0.1,
+       "snow_in": 0.0,
        "snow_in_regime": null
       }
      },
@@ -1610,8 +1580,8 @@
       "end": "2026-11-24T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.37,
-       "snow_in": 6.4,
+       "water_in": 0.07,
+       "snow_in": 1.2,
        "snow_in_regime": null
       }
      },
@@ -1621,7 +1591,7 @@
       "amounts": {
        "type": "deterministic",
        "water_in": 0.0,
-       "snow_in": 0.0,
+       "snow_in": 0.1,
        "snow_in_regime": null
       }
      },
@@ -1644,27 +1614,22 @@
    },
    {
     "model": "GDPS",
-    "cycle": "11/18 12z",
-    "init": "2026-11-18T05:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
       "start": "2026-11-18T05:00:00-07:00",
       "end": "2026-11-19T05:00:00-07:00",
-      "amounts": {
-       "type": "deterministic",
-       "water_in": 0.0,
-       "snow_in": 0.0,
-       "snow_in_regime": null
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-19T05:00:00-07:00",
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.93,
-       "snow_in": 12.9,
+       "water_in": 1.22,
+       "snow_in": 17.3,
        "snow_in_regime": null
       }
      },
@@ -1673,8 +1638,8 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.91,
-       "snow_in": 14.8,
+       "water_in": 0.72,
+       "snow_in": 11.9,
        "snow_in_regime": null
       }
      },
@@ -1683,8 +1648,8 @@
       "end": "2026-11-22T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.01,
-       "snow_in": 0.3,
+       "water_in": 0.02,
+       "snow_in": 0.5,
        "snow_in_regime": null
       }
      },
@@ -1703,8 +1668,8 @@
       "end": "2026-11-24T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.03,
-       "snow_in": 0.5,
+       "water_in": 0.02,
+       "snow_in": 0.3,
        "snow_in_regime": null
       }
      },
@@ -1923,19 +1888,14 @@
    },
    {
     "model": "ENS",
-    "cycle": "11/18 12z",
-    "init": "2026-11-18T05:00:00-07:00",
+    "cycle": "11/18 18z",
+    "init": "2026-11-18T11:00:00-07:00",
     "ensemble": true,
     "days": [
      {
       "start": "2026-11-18T05:00:00-07:00",
       "end": "2026-11-19T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 0,
-       "members": 50,
-       "mean_water_in": 0.01
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-19T05:00:00-07:00",
@@ -1944,7 +1904,7 @@
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 0.38
+       "mean_water_in": 0.41
       }
      },
      {
@@ -1954,7 +1914,7 @@
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 0.44
+       "mean_water_in": 0.43
       }
      },
      {
@@ -1962,9 +1922,9 @@
       "end": "2026-11-22T05:00:00-07:00",
       "amounts": {
        "type": "ensemble",
-       "members_wet": 0,
+       "members_wet": 1,
        "members": 50,
-       "mean_water_in": 0.02
+       "mean_water_in": 0.03
       }
      },
      {
@@ -1972,9 +1932,9 @@
       "end": "2026-11-23T05:00:00-07:00",
       "amounts": {
        "type": "ensemble",
-       "members_wet": 11,
+       "members_wet": 10,
        "members": 50,
-       "mean_water_in": 0.06
+       "mean_water_in": 0.05
       }
      },
      {
@@ -1982,50 +1942,30 @@
       "end": "2026-11-24T05:00:00-07:00",
       "amounts": {
        "type": "ensemble",
-       "members_wet": 32,
+       "members_wet": 15,
        "members": 50,
-       "mean_water_in": 0.16
+       "mean_water_in": 0.09
       }
      },
      {
       "start": "2026-11-24T05:00:00-07:00",
       "end": "2026-11-25T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 2,
-       "members": 50,
-       "mean_water_in": 0.01
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-25T05:00:00-07:00",
       "end": "2026-11-26T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 34,
-       "members": 50,
-       "mean_water_in": 0.29
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-26T05:00:00-07:00",
       "end": "2026-11-27T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 11,
-       "members": 50,
-       "mean_water_in": 0.07
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-27T05:00:00-07:00",
       "end": "2026-11-28T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 8,
-       "members": 50,
-       "mean_water_in": 0.07
-      }
+      "amounts": null
      }
     ]
    }
@@ -2096,8 +2036,8 @@
    },
    {
     "model": "RRFS",
-    "cycle": "11/18 18z",
-    "init": "2026-11-18T11:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
@@ -2110,8 +2050,8 @@
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 1.46,
-       "snow_in": 22.2,
+       "water_in": 1.35,
+       "snow_in": 20.3,
        "snow_in_regime": null
       }
      },
@@ -2120,15 +2060,20 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.48,
-       "snow_in": 9.2,
+       "water_in": 0.88,
+       "snow_in": 15.9,
        "snow_in_regime": null
       }
      },
      {
       "start": "2026-11-21T05:00:00-07:00",
       "end": "2026-11-22T05:00:00-07:00",
-      "amounts": null
+      "amounts": {
+       "type": "deterministic",
+       "water_in": 0.02,
+       "snow_in": 0.4,
+       "snow_in_regime": null
+      }
      },
      {
       "start": "2026-11-22T05:00:00-07:00",
@@ -2164,8 +2109,8 @@
    },
    {
     "model": "RDPS",
-    "cycle": "11/18 18z",
-    "init": "2026-11-18T11:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
@@ -2179,7 +2124,7 @@
       "amounts": {
        "type": "deterministic",
        "water_in": 1.38,
-       "snow_in": 20.3,
+       "snow_in": 20.2,
        "snow_in_regime": null
       }
      },
@@ -2188,15 +2133,20 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.4,
-       "snow_in": 7.2,
+       "water_in": 0.34,
+       "snow_in": 6.0,
        "snow_in_regime": null
       }
      },
      {
       "start": "2026-11-21T05:00:00-07:00",
       "end": "2026-11-22T05:00:00-07:00",
-      "amounts": null
+      "amounts": {
+       "type": "deterministic",
+       "water_in": 0.01,
+       "snow_in": 0.3,
+       "snow_in_regime": null
+      }
      },
      {
       "start": "2026-11-22T05:00:00-07:00",
@@ -2232,8 +2182,8 @@
    },
    {
     "model": "GFS",
-    "cycle": "11/18 18z",
-    "init": "2026-11-18T11:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
@@ -2246,8 +2196,8 @@
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.4,
-       "snow_in": 6.2,
+       "water_in": 0.5,
+       "snow_in": 7.7,
        "snow_in_regime": null
       }
      },
@@ -2256,8 +2206,8 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.45,
-       "snow_in": 8.0,
+       "water_in": 0.51,
+       "snow_in": 9.1,
        "snow_in_regime": null
       }
      },
@@ -2266,8 +2216,8 @@
       "end": "2026-11-22T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.01,
-       "snow_in": 0.2,
+       "water_in": 0.0,
+       "snow_in": 0.1,
        "snow_in_regime": null
       }
      },
@@ -2277,7 +2227,7 @@
       "amounts": {
        "type": "deterministic",
        "water_in": 0.0,
-       "snow_in": 0.1,
+       "snow_in": 0.0,
        "snow_in_regime": null
       }
      },
@@ -2286,8 +2236,8 @@
       "end": "2026-11-24T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 0.36,
-       "snow_in": 6.6,
+       "water_in": 0.07,
+       "snow_in": 1.2,
        "snow_in_regime": null
       }
      },
@@ -2297,7 +2247,7 @@
       "amounts": {
        "type": "deterministic",
        "water_in": 0.0,
-       "snow_in": 0.0,
+       "snow_in": 0.1,
        "snow_in_regime": null
       }
      },
@@ -2320,27 +2270,22 @@
    },
    {
     "model": "GDPS",
-    "cycle": "11/18 12z",
-    "init": "2026-11-18T05:00:00-07:00",
+    "cycle": "11/19 00z",
+    "init": "2026-11-18T17:00:00-07:00",
     "ensemble": false,
     "days": [
      {
       "start": "2026-11-18T05:00:00-07:00",
       "end": "2026-11-19T05:00:00-07:00",
-      "amounts": {
-       "type": "deterministic",
-       "water_in": 0.0,
-       "snow_in": 0.0,
-       "snow_in_regime": null
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-19T05:00:00-07:00",
       "end": "2026-11-20T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 1.04,
-       "snow_in": 15.5,
+       "water_in": 1.36,
+       "snow_in": 20.5,
        "snow_in_regime": null
       }
      },
@@ -2349,8 +2294,8 @@
       "end": "2026-11-21T05:00:00-07:00",
       "amounts": {
        "type": "deterministic",
-       "water_in": 1.08,
-       "snow_in": 18.7,
+       "water_in": 0.77,
+       "snow_in": 13.4,
        "snow_in_regime": null
       }
      },
@@ -2360,7 +2305,7 @@
       "amounts": {
        "type": "deterministic",
        "water_in": 0.02,
-       "snow_in": 0.3,
+       "snow_in": 0.4,
        "snow_in_regime": null
       }
      },
@@ -2380,7 +2325,7 @@
       "amounts": {
        "type": "deterministic",
        "water_in": 0.02,
-       "snow_in": 0.4,
+       "snow_in": 0.3,
        "snow_in_regime": null
       }
      },
@@ -2599,19 +2544,14 @@
    },
    {
     "model": "ENS",
-    "cycle": "11/18 12z",
-    "init": "2026-11-18T05:00:00-07:00",
+    "cycle": "11/18 18z",
+    "init": "2026-11-18T11:00:00-07:00",
     "ensemble": true,
     "days": [
      {
       "start": "2026-11-18T05:00:00-07:00",
       "end": "2026-11-19T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 0,
-       "members": 50,
-       "mean_water_in": 0.01
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-19T05:00:00-07:00",
@@ -2620,7 +2560,7 @@
        "type": "ensemble",
        "members_wet": 50,
        "members": 50,
-       "mean_water_in": 0.39
+       "mean_water_in": 0.43
       }
      },
      {
@@ -2638,7 +2578,7 @@
       "end": "2026-11-22T05:00:00-07:00",
       "amounts": {
        "type": "ensemble",
-       "members_wet": 1,
+       "members_wet": 2,
        "members": 50,
        "mean_water_in": 0.03
       }
@@ -2648,7 +2588,7 @@
       "end": "2026-11-23T05:00:00-07:00",
       "amounts": {
        "type": "ensemble",
-       "members_wet": 10,
+       "members_wet": 13,
        "members": 50,
        "mean_water_in": 0.06
       }
@@ -2658,50 +2598,30 @@
       "end": "2026-11-24T05:00:00-07:00",
       "amounts": {
        "type": "ensemble",
-       "members_wet": 33,
+       "members_wet": 20,
        "members": 50,
-       "mean_water_in": 0.19
+       "mean_water_in": 0.1
       }
      },
      {
       "start": "2026-11-24T05:00:00-07:00",
       "end": "2026-11-25T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 2,
-       "members": 50,
-       "mean_water_in": 0.02
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-25T05:00:00-07:00",
       "end": "2026-11-26T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 34,
-       "members": 50,
-       "mean_water_in": 0.29
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-26T05:00:00-07:00",
       "end": "2026-11-27T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 11,
-       "members": 50,
-       "mean_water_in": 0.07
-      }
+      "amounts": null
      },
      {
       "start": "2026-11-27T05:00:00-07:00",
       "end": "2026-11-28T05:00:00-07:00",
-      "amounts": {
-       "type": "ensemble",
-       "members_wet": 8,
-       "members": 50,
-       "mean_water_in": 0.07
-      }
+      "amounts": null
      }
     ]
    }
