@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated": "2026-11-21T23:26:56.194105-07:00",
+ "generated": "2026-11-22T02:05:09.212916-07:00",
  "snow_regime_adjusted": false,
  "storms": [],
  "recent_changes": [
@@ -9,12 +9,6 @@
    "start": "2026-11-23T05:00:00-07:00",
    "status": "dropped",
    "note": "no model's newest run shows it any more (11/21 1145 MST)"
-  },
-  {
-   "id": "2026112512",
-   "start": "2026-11-24T23:00:00-07:00",
-   "status": "dropped",
-   "note": "no model's newest run shows it any more (11/20 2349 MST)"
   },
   {
    "id": "2026112612",
